@@ -2,10 +2,10 @@ import os
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+load_dotenv()
 import database
 
 # Tải Token từ file .env
-load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 # Cấu hình Intents
