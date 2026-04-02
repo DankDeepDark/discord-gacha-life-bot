@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Môi trường & Bí mật (KHÔNG BAO GIỜ commit file này!)
+.env
+
+# Database (Dữ liệu người chơi - Không push lên GitHub)
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/

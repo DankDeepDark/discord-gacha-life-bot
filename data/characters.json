@@ -1,0 +1,352 @@
+{
+    "1": {
+        "name": "Hu Tao",
+        "rarity": "SSR",
+        "emoji": "👻",
+        "image": "https://ui-avatars.com/api/?name=Hu%20Tao&background=random&color=fff&size=500",
+        "origin": "Genshin Impact"
+    },
+    "2": {
+        "name": "Raiden Shogun",
+        "rarity": "SSR",
+        "emoji": "⚡",
+        "image": "https://ui-avatars.com/api/?name=Raiden%20Shogun&background=random&color=fff&size=500",
+        "origin": "Genshin Impact"
+    },
+    "3": {
+        "name": "Kafka",
+        "rarity": "SSR",
+        "emoji": "🕷️",
+        "image": "https://ui-avatars.com/api/?name=Kafka&background=random&color=fff&size=500",
+        "origin": "Honkai: Star Rail"
+    },
+    "4": {
+        "name": "Seele",
+        "rarity": "SSR",
+        "emoji": "🦋",
+        "image": "https://ui-avatars.com/api/?name=Seele&background=random&color=fff&size=500",
+        "origin": "Honkai: Star Rail"
+    },
+    "5": {
+        "name": "Nekomata",
+        "rarity": "SSR",
+        "emoji": "🐾",
+        "image": "https://ui-avatars.com/api/?name=Nekomata&background=ffd700&color=fff",
+        "origin": "Zenless Zone Zero"
+    },
+    "6": {
+        "name": "Emilia",
+        "rarity": "SSR",
+        "emoji": "❄️",
+        "image": "https://ui-avatars.com/api/?name=Emilia&background=random&color=fff&size=500",
+        "origin": "Re:Zero"
+    },
+    "7": {
+        "name": "Cha Hae-In",
+        "rarity": "SSR",
+        "emoji": "⚔️",
+        "image": "https://ui-avatars.com/api/?name=Cha%20Hae-In&background=random&color=fff&size=500",
+        "origin": "Solo Leveling"
+    },
+    "8": {
+        "name": "Frieren",
+        "rarity": "SSR",
+        "emoji": "🧝‍♀️",
+        "image": "https://ui-avatars.com/api/?name=Frieren&background=random&color=fff&size=500",
+        "origin": "Frieren"
+    },
+    "9": {
+        "name": "Ai Hoshino",
+        "rarity": "SSR",
+        "emoji": "🌠",
+        "image": "https://ui-avatars.com/api/?name=Ai%20Hoshino&background=random&color=fff&size=500",
+        "origin": "Oshi No Ko"
+    },
+    "10": {
+        "name": "Kaguya Shinomiya",
+        "rarity": "SSR",
+        "emoji": "🏹",
+        "image": "https://ui-avatars.com/api/?name=Kaguya%20Shinomiya&background=random&color=fff&size=500",
+        "origin": "Love is War"
+    },
+    "11": {
+        "name": "Ganyu",
+        "rarity": "SR",
+        "emoji": "🐐",
+        "image": "https://ui-avatars.com/api/?name=Ganyu&background=random&color=fff&size=500",
+        "origin": "Genshin Impact"
+    },
+    "12": {
+        "name": "Fischl",
+        "rarity": "SR",
+        "emoji": "🦅",
+        "image": "https://ui-avatars.com/api/?name=Fischl&background=random&color=fff&size=500",
+        "origin": "Genshin Impact"
+    },
+    "13": {
+        "name": "March 7th",
+        "rarity": "SR",
+        "emoji": "📸",
+        "image": "https://ui-avatars.com/api/?name=March%207th&background=random&color=fff&size=500",
+        "origin": "Honkai: Star Rail"
+    },
+    "14": {
+        "name": "Tingyun",
+        "rarity": "SR",
+        "emoji": "🦊",
+        "image": "https://ui-avatars.com/api/?name=Tingyun&background=random&color=fff&size=500",
+        "origin": "Honkai: Star Rail"
+    },
+    "15": {
+        "name": "Nicole",
+        "rarity": "SR",
+        "emoji": "💼",
+        "image": "https://ui-avatars.com/api/?name=Nicole&background=800080&color=fff",
+        "origin": "Zenless Zone Zero"
+    },
+    "16": {
+        "name": "Rem",
+        "rarity": "SR",
+        "emoji": "💙",
+        "image": "https://ui-avatars.com/api/?name=Rem&background=random&color=fff&size=500",
+        "origin": "Re:Zero"
+    },
+    "17": {
+        "name": "Echidna",
+        "rarity": "SR",
+        "emoji": "☕",
+        "image": "https://ui-avatars.com/api/?name=Echidna&background=random&color=fff&size=500",
+        "origin": "Re:Zero"
+    },
+    "18": {
+        "name": "Fern",
+        "rarity": "SR",
+        "emoji": "🪄",
+        "image": "https://ui-avatars.com/api/?name=Fern&background=random&color=fff&size=500",
+        "origin": "Frieren"
+    },
+    "19": {
+        "name": "Ubel",
+        "rarity": "SR",
+        "emoji": "👁️",
+        "image": "https://ui-avatars.com/api/?name=Ubel&background=random&color=fff&size=500",
+        "origin": "Frieren"
+    },
+    "20": {
+        "name": "Ruby Hoshino",
+        "rarity": "SR",
+        "emoji": "💎",
+        "image": "https://ui-avatars.com/api/?name=Ruby%20Hoshino&background=random&color=fff&size=500",
+        "origin": "Oshi No Ko"
+    },
+    "21": {
+        "name": "Kana Arima",
+        "rarity": "SR",
+        "emoji": "🧢",
+        "image": "https://ui-avatars.com/api/?name=Kana%20Arima&background=random&color=fff&size=500",
+        "origin": "Oshi No Ko"
+    },
+    "22": {
+        "name": "Akane Kurokawa",
+        "rarity": "SR",
+        "emoji": "🎭",
+        "image": "https://ui-avatars.com/api/?name=Akane%20Kurokawa&background=random&color=fff&size=500",
+        "origin": "Oshi No Ko"
+    },
+    "23": {
+        "name": "Chika Fujiwara",
+        "rarity": "SR",
+        "emoji": "🎀",
+        "image": "https://ui-avatars.com/api/?name=Chika%20Fujiwara&background=random&color=fff&size=500",
+        "origin": "Love is War"
+    },
+    "24": {
+        "name": "Ai Hayasaka",
+        "rarity": "SR",
+        "emoji": "📱",
+        "image": "https://ui-avatars.com/api/?name=Ai%20Hayasaka&background=random&color=fff&size=500",
+        "origin": "Love is War"
+    },
+    "25": {
+        "name": "Tohru",
+        "rarity": "SR",
+        "emoji": "🐉",
+        "image": "https://ui-avatars.com/api/?name=Tohru&background=random&color=fff&size=500",
+        "origin": "Kobayashi-san"
+    },
+    "26": {
+        "name": "Amber",
+        "rarity": "R",
+        "emoji": "🐰",
+        "image": "https://ui-avatars.com/api/?name=Amber&background=random&color=fff&size=500",
+        "origin": "Genshin Impact"
+    },
+    "27": {
+        "name": "Barbara",
+        "rarity": "R",
+        "emoji": "🎶",
+        "image": "https://ui-avatars.com/api/?name=Barbara&background=random&color=fff&size=500",
+        "origin": "Genshin Impact"
+    },
+    "28": {
+        "name": "Xiangling",
+        "rarity": "R",
+        "emoji": "🌶️",
+        "image": "https://cdn.myanimelist.net/images/characters/16/426025.jpg",
+        "origin": "Genshin Impact"
+    },
+    "29": {
+        "name": "Sucrose",
+        "rarity": "R",
+        "emoji": "🧪",
+        "image": "https://ui-avatars.com/api/?name=Sucrose&background=random&color=fff&size=500",
+        "origin": "Genshin Impact"
+    },
+    "30": {
+        "name": "Herta",
+        "rarity": "R",
+        "emoji": "🔨",
+        "image": "https://ui-avatars.com/api/?name=Herta&background=random&color=fff&size=500",
+        "origin": "Honkai: Star Rail"
+    },
+    "31": {
+        "name": "Asta",
+        "rarity": "R",
+        "emoji": "🔭",
+        "image": "https://ui-avatars.com/api/?name=Asta&background=random&color=fff&size=500",
+        "origin": "Honkai: Star Rail"
+    },
+    "32": {
+        "name": "Natasha",
+        "rarity": "R",
+        "emoji": "🩺",
+        "image": "https://ui-avatars.com/api/?name=Natasha&background=random&color=fff&size=500",
+        "origin": "Honkai: Star Rail"
+    },
+    "33": {
+        "name": "Qingque",
+        "rarity": "R",
+        "emoji": "🀄",
+        "image": "https://ui-avatars.com/api/?name=Qingque&background=random&color=fff&size=500",
+        "origin": "Honkai: Star Rail"
+    },
+    "34": {
+        "name": "Anby",
+        "rarity": "R",
+        "emoji": "🍔",
+        "image": "https://ui-avatars.com/api/?name=Anby&background=0000ff&color=fff",
+        "origin": "Zenless Zone Zero"
+    },
+    "35": {
+        "name": "Corin",
+        "rarity": "R",
+        "emoji": "🧹",
+        "image": "https://ui-avatars.com/api/?name=Corin&background=0000ff&color=fff",
+        "origin": "Zenless Zone Zero"
+    },
+    "36": {
+        "name": "Ram",
+        "rarity": "R",
+        "emoji": "❤️",
+        "image": "https://ui-avatars.com/api/?name=Ram&background=random&color=fff&size=500",
+        "origin": "Re:Zero"
+    },
+    "37": {
+        "name": "Frederica",
+        "rarity": "R",
+        "emoji": "🐆",
+        "image": "https://ui-avatars.com/api/?name=Frederica&background=random&color=fff&size=500",
+        "origin": "Re:Zero"
+    },
+    "38": {
+        "name": "Lee Joohee",
+        "rarity": "R",
+        "emoji": "🩹",
+        "image": "https://ui-avatars.com/api/?name=Lee%20Joohee&background=random&color=fff&size=500",
+        "origin": "Solo Leveling"
+    },
+    "39": {
+        "name": "Park Heejin",
+        "rarity": "R",
+        "emoji": "🛡️",
+        "image": "https://ui-avatars.com/api/?name=Park+Heejin&background=0000ff&color=fff",
+        "origin": "Solo Leveling"
+    },
+    "40": {
+        "name": "Aura",
+        "rarity": "R",
+        "emoji": "⚖️",
+        "image": "https://ui-avatars.com/api/?name=Aura&background=random&color=fff&size=500",
+        "origin": "Frieren"
+    },
+    "41": {
+        "name": "Laufen",
+        "rarity": "R",
+        "emoji": "🏃‍♀️",
+        "image": "https://ui-avatars.com/api/?name=Laufen&background=random&color=fff&size=500",
+        "origin": "Frieren"
+    },
+    "42": {
+        "name": "Mem-cho",
+        "rarity": "R",
+        "emoji": "😈",
+        "image": "https://ui-avatars.com/api/?name=Mem-cho&background=random&color=fff&size=500",
+        "origin": "Oshi No Ko"
+    },
+    "43": {
+        "name": "Shinobu",
+        "rarity": "R",
+        "emoji": "🎙️",
+        "image": "https://ui-avatars.com/api/?name=Shinobu&background=0000ff&color=fff",
+        "origin": "Mayonaka Heart Tune"
+    },
+    "44": {
+        "name": "Miko Iino",
+        "rarity": "R",
+        "emoji": "📔",
+        "image": "https://ui-avatars.com/api/?name=Miko%20Iino&background=random&color=fff&size=500",
+        "origin": "Love is War"
+    },
+    "45": {
+        "name": "Kanna",
+        "rarity": "R",
+        "emoji": "🐉",
+        "image": "https://ui-avatars.com/api/?name=Kanna&background=random&color=fff&size=500",
+        "origin": "Kobayashi-san"
+    },
+    "46": {
+        "name": "Lucoa",
+        "rarity": "R",
+        "emoji": "🧢",
+        "image": "https://ui-avatars.com/api/?name=Lucoa&background=random&color=fff&size=500",
+        "origin": "Kobayashi-san"
+    },
+    "47": {
+        "name": "Elma",
+        "rarity": "R",
+        "emoji": "🍡",
+        "image": "https://ui-avatars.com/api/?name=Elma&background=random&color=fff&size=500",
+        "origin": "Kobayashi-san"
+    },
+    "48": {
+        "name": "Collei",
+        "rarity": "R",
+        "emoji": "🌿",
+        "image": "https://ui-avatars.com/api/?name=Collei&background=random&color=fff&size=500",
+        "origin": "Genshin Impact"
+    },
+    "49": {
+        "name": "Diona",
+        "rarity": "R",
+        "emoji": "🍹",
+        "image": "https://ui-avatars.com/api/?name=Diona&background=random&color=fff&size=500",
+        "origin": "Genshin Impact"
+    },
+    "50": {
+        "name": "Pela",
+        "rarity": "R",
+        "emoji": "📱",
+        "image": "https://ui-avatars.com/api/?name=Pela&background=random&color=fff&size=500",
+        "origin": "Honkai: Star Rail"
+    }
+}
