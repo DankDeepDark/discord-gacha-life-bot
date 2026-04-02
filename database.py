@@ -20,22 +20,33 @@ async def init_db():
     global _client, _db
 
     if not MONGO_URI:
+        print("❌ LỖI: Biến môi trường MONGO_URI chưa được thiết lập!")
         raise ValueError("❌ Biến môi trường MONGO_URI chưa được thiết lập!")
 
-    _client = AsyncIOMotorClient(MONGO_URI)
-    _db = _client["gacha_bot"]
+    try:
+        # Thêm serverSelectionTimeoutMS=5000 (5 giây) để nếu rớt mạng/sai IP là báo lỗi ngay
+        _client = AsyncIOMotorClient(MONGO_URI, serverSelectionTimeoutMS=5000)
+        _db = _client["gacha_bot"]
 
-    # Tạo unique index cho users và inventory
-    await _db["users"].create_index("user_id", unique=True)
-    await _db["inventory"].create_index([("user_id", 1), ("waifu_id", 1)], unique=True)
+        # Kiêm tra kết nối thực tế bằng ping
+        await _client.admin.command('ping')
+        
+        # Tạo unique index cho users và inventory
+        await _db["users"].create_index("user_id", unique=True)
+        await _db["inventory"].create_index([("user_id", 1), ("waifu_id", 1)], unique=True)
 
-    # Khởi tạo Ngân Khố nếu chưa có — mặc định 1,000,000 💰
-    existing = await _db["server_configs"].find_one({"key": "bank_fund"})
-    if not existing:
-        await _db["server_configs"].insert_one({"key": "bank_fund", "value": 1_000_000})
-        print("✅ Đã khởi tạo Ngân Khố với 1,000,000 💰")
+        # Khởi tạo Ngân Khố nếu chưa có — mặc định 1,000,000 💰
+        existing = await _db["server_configs"].find_one({"key": "bank_fund"})
+        if not existing:
+            await _db["server_configs"].insert_one({"key": "bank_fund", "value": 1_000_000})
+            print("✅ Đã khởi tạo Ngân Khố với 1,000,000 💰")
 
-    print("✅ Đã kết nối MongoDB Atlas thành công!")
+        print("✅ Đã kết nối MongoDB Atlas thành công!")
+    except Exception as e:
+        print(f"❌ LỖI KẾT NỐI MONGODB: {str(e)}")
+        print("💡 HƯỚNG DẪN: Hãy kiểm tra MONGO_URI trong Environment Variables của Render.")
+        print("💡 Đảm bảo bạn đã Whitelist IP 0.0.0.0/0 trên trang MongoDB Atlas.")
+        raise e
 
 # ===== USER HELPERS =====
 
